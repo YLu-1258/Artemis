@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Daedalus | ARTEMIS home</title>
+        <meta charset="utf-8">
+        <meta name="language" content="en">
+        <meta property="og:type" content= "website" />
+        <meta property="og:site_name" content="Daedalus | Artemis" />
+        <meta name="author" content="Daedalus Team">
+        <meta name="robots" content="index" />
+        <meta name="googlebot" content="index" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel = "stylesheet" href = "styles/main.css">
+        <link rel="preload" href="Rogerex-Regular.woff2" as="font" type="font/woff2" crossorigin>
+        <!-- animate on scroll library that I found-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script src = "js/script.js"></script>
+    </head>
+
+    <body>
+        <div class="navbar" style="position:sticky">
+            <a href="home.html" class="hover-underline-animation">Home</a>
+            <a class="active" href="#projects" class="hover-underline-animation">Projects</a>
+        </div>
+
+        <section id="main" class="slides"> 
+            <div class="main">
+                <h1 style="line-height:1em;" class="animate__animated animate__fadeInDown" > Our Projects</h1>
+                <h2 style="line-height:1.4em;" class="animate__animated animate__fadeInUp"> 
+                      <span style="color:aqua">Experiences&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:yellow"> Knowledge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:rgb(0, 255, 81)"> Commitment&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+                    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:rgb(255, 162, 0)"> Ideas</span>
+                </h2>
+            </div> 
+            <div class="about_us">
+                <h1 data-aos="zoom-in-up">The Team</h1>
+            </div>
+            <button onclick="scrollToTop()" id="Top" title="Go to top">↑</button>
+        </section>
+        
+        <script>
+            var mybutton = document.getElementById("Top");
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                mybutton.style.display = "block";
+            } 
+            else {
+                mybutton.style.display = "none";
+            }
+            }
+
+            function scrollToTop() {
+                window.scrollTo({top: 0, behavior: 'smooth'});
+            }
+        </script>            
+    </body>
+</html>

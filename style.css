@@ -1,0 +1,50 @@
+
+/* using white id for text because body is black */
+
+body {
+    background-color: hsl(var(--black0_hsl));
+    font-family: 'Trebuchet MS', sans-serif;
+    color: hsl(var(--white_hsl));
+  }
+
+.center-text {
+    text-align: center;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.left-text {
+    text-align: left;
+}
+
+.teal {
+    color: hsl(var(--teal_hsl));
+}
+
+.red {
+    color: hsl(var(--red_hsl))
+}
+
+
+#msover {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+   
+}
+
+#msover a {
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: all 500ms;
+}
+
+
+#msover a:hover {
+    font-size:30px;
+    font-size-adjust: 20px;
+
+}
