@@ -1,6 +1,6 @@
 # Project-Artemis
-Checklist:
-> ❌ Discord Bot Website
+
+Website for the Daedalus Team
 
 This project was led by **Yixuan Lu and _______**
 
